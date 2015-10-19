@@ -1,5 +1,6 @@
 1. Login Page
 2. Courses Page
+	2.1 Course validation page
 3. CourseBook Page
 4. Review Page
 5. Thank you Page
