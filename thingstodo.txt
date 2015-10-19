@@ -1,4 +1,5 @@
 1. Login Page
+	1.1 Add valication logic
 2. Courses Page
 3. CourseBook Page
 4. Review Page
