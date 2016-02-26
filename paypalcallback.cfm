@@ -18,7 +18,7 @@ History:
 		<cfset session.PayPal.paypalCallbackRelocateTo="">
 		<cfset session.PayPal.paypalCallbackRelocateErrCode="">
 		
-		<cfquery name="PayPalLog" datasource="ob">
+		<cfquery name="PayPalLog" datasource="absmysql">
 			INSERT INTO Logs.PayPalLog(TrasanctionType,PayLoad,Type,IPaddress, SiteID, StudentID) 
 			VALUES('A','#A_PP_RESPONSE#','Response','#cgi.REMOTE_ADDR#', <cfif isDefined('session.ob_site.SiteID')>#session.ob_site.SiteID#<cfelse>NULL</cfif>, <cfif isDefined('session.ob_users.StudentID')>'#session.ob_users.StudentID#'<cfelse>NULL</cfif>) 
 		</cfquery>
