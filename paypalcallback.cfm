@@ -2,9 +2,9 @@
 ************************************************************************************
 Filename: /ob/paypalcallback.cfm
 Created Date: 02/23/2016
-File Purpose: 
+File Purpose: This is the processe file to hand paypal token, iframe, and auth
 
-History:
+History: 
 ************************************************************************************
 --->
 
